@@ -1,4 +1,3 @@
-cat > generate_report.py << 'EOF'
 #!/usr/bin/env python3
 import os, time, requests
 
@@ -50,4 +49,3 @@ if __name__ == "__main__":
     with open("reporte.md","w",encoding="utf-8") as f:
         f.write(build_markdown(findings))
     print("reporte.md generado.")
-EOF
