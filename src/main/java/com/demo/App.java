@@ -1,4 +1,3 @@
-cat > src/main/java/com/demo/App.java << 'EOF'
 package com.demo;
 
 public class App {
@@ -6,4 +5,3 @@ public class App {
         System.out.println("Hola desde el proyecto demo");
     }
 }
-EOF
